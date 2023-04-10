@@ -1,3 +1,3 @@
 const autoDomainSearch = require("./autoDomainSearch");
 
-autoDomainSearch(10, 20000);
+autoDomainSearch(3, 17576);
