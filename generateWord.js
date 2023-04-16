@@ -1,4 +1,4 @@
-function generateRandomWord() {
+function generateWord() {
   const alphabet = 'abcdefghijklmnopqrstuvwxyz';
   let word = '';
 
