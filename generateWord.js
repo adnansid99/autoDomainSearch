@@ -1,5 +1,3 @@
-const randomWords = require("random-words");
-
 function generateRandomWord() {
   const alphabet = 'abcdefghijklmnopqrstuvwxyz';
   let word = '';
