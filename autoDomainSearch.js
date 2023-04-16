@@ -1,6 +1,6 @@
 var whois = require("whois");
 const fs = require("fs");
-const generateWord = require("./generateWord");
+const generateUniqueWord = require("./generateUniqueWord");
 
 let curIndex = 0;
 
@@ -29,7 +29,7 @@ const autoDomainSearch = async (wordSize = 6, length = 10) => {
 };
 
 const myLookup = (wordSize, length) => {
-  const domainName = generateWord(wordSize);
+  const domainName = generateUniqueWord(wordSize);
 
   whois.lookup(domainName, async (err, data) => {
     if (err) {
