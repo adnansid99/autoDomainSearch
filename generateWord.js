@@ -20,7 +20,7 @@ function generateUniqueWord() {
   // Generate a unique word and add it to the usedWords array
   let word = '';
   let attempts = 0;
-  const maxAttempts = 17576; // maximum number of attempts to generate a unique word
+  const maxAttempts = 17580; // maximum number of attempts to generate a unique word
   while ((word === '' || usedWords.includes(word)) && attempts < maxAttempts) {
     word = generateWord();
     attempts++;
